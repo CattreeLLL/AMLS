@@ -14,11 +14,11 @@ Task B: brain tumor classification to determine the brain tumor type (four-class
 
 Data_Preprocessing.py :  This module is shared by Task A and B, consisting of three functions described as follows.
                                        
-                                        1. data_reading(set, d): Read 2D images/1D array for the training set, validation set, and test set;
+                         1. data_reading(set, d): Read 2D images/1D array for the training set, validation set, and test set;
 
-		                        2. label_reading(set,d): Read labels for the training set, validation set, and test set; 
+		         2. label_reading(set,d): Read labels for the training set, validation set, and test set; 
 
-                                        3. down_sampling(images, size): Down-sample input images to a target size based on a predefined value.
+                         3. down_sampling(images, size): Down-sample input images to a target size based on a predefined value.
 
 Task A:
 
