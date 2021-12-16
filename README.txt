@@ -1,5 +1,5 @@
 ---------------------------------------
-                 Introduction
+            Introduction
 ---------------------------------------
 
 This project is used for MRI brain tumor diagnosis and classification based on machine learning classification method. 
