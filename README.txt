@@ -16,7 +16,7 @@ Data_Preprocessing.py :  This module is shared by Task A and B, consisting of th
                                        
                                         1. data_reading(set, d): Read 2D images/1D array for the training set, validation set, and test set;
 
-		        2. label_reading(set,d): Read labels for the training set, validation set, and test set; 
+		                        2. label_reading(set,d): Read labels for the training set, validation set, and test set; 
 
                                         3. down_sampling(images, size): Down-sample input images to a target size based on a predefined value.
 
@@ -24,14 +24,14 @@ Task A:
 
 A_PCA.py : This module is used for data pre-precessing (deminsion reduction) using PCA technique. There is no need to run this file as the down-sampled 
                   
-                  data is already saved for reuse. The 6 saved files are located in './dataset/image', which are the data and encoded labels for the training set, 
+           data is already saved for reuse. The 6 saved files are located in './dataset/image', which are the data and encoded labels for the training set, 
     
-                  validation set, and test set.
+           validation set, and test set.
 
 
-(Main) A_Comparison.py : This module is used for model training and predictions for Task A, including all algorithms used:  Logistic Regression Classifier, Decision Tree Classifier
-
-                               GBDT(Gradient Boosting Decision Tree) Classifier, Random Forest, AdaBoost Classifier, KNN, and SVM Classifier.
+(Main) A_Comparison.py : This module is used for model training and predictions for Task A, including all algorithms used:  Logistic Regression Classifier, Decision Tree 
+ 
+                         Classifier, GBDT(Gradient Boosting Decision Tree) Classifier, Random Forest, AdaBoost Classifier, KNN, and SVM Classifier.
 
 
 Task B:
@@ -69,7 +69,7 @@ Direct Result Check:
 
 Task A:
 
-              1. make sure all .py files are placed at the right place. They should be placed outside the folders 'test' and 'dataset'
+              1. make sure all .py files are placed at the right place. They should be placed outside the folders 'test' and 'dataset' which are the dataset provided.
 
               2. make sure the down-sampled data files provided are right placed into './dataset/image/' (6 files: x_train_pca, x_val_pca, x_test_pca, y_train, y_val, y_test .csv)
 
@@ -77,7 +77,7 @@ Task A:
 
 Task B:
 
-             1. make sure all .py files are placed at the right place. They should be placed outside the folders 'test' and 'dataset'
+             1. make sure all .py files are placed at the right place. They should be placed outside the folders 'test' and 'dataset' which are the dataset provided.
 
              2. run file 'B_Ensemble_Learning.py'
 
